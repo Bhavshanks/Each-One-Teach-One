@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="with=device-width, initial-scale=1.0">
+            <title>EOTO</title>
+            <link rel="stylesheet" href="style.css">
+            <!--<link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+            <body>
+            <section class = "header">
+                <nav>
+                    <a href="index.html"> <img src="images/logo.png" alt="">
+                        <i class="fa fa-bars"onclick="hidemenu()" ></i>
+                        <div class="nav-links">
+                            <i class="fa fa-times"></i>
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">ABOUT US</a></li>
+                                <li><a href="regitser.html">REGISTRATION</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa fa-bars" onclick="showmenu()" ></i>
+                       
+                </nav>
+                <div class="text-box">
+                    <h1>welcome to EOTO</h1>
+                    <p>Learn And Teach With Us.</p>
+                    <a href="about.html" class="hero-btn">VISIT US TO KNOW MORE</a>
+                </div>
+            </section>
+
+
+<!-- ----------------------features----------- -->
+
+                        <section class="features">
+                            <h1>VISION MISSION AND GOALS</h1>
+                            <!-- <p>each one teach one</p> -->
+                            <div class="row">
+                                <div class="features-col">
+                                    <h3>vision</h3>
+                                    <p>Anytime, anywhere learning. . . eliminate barriers for students and teachers
+                                        21st century teaching and learning will be redefined to be more efficient and targeted
+                                        Blended learning options will no longer be viewed as a new or separate opportunity . . . 
+                                        they will become our regular program </p>
+                                </div>
+                             
+                                <div class="features-col">
+                                    <h3>mission</h3>
+                                    <p>Our dynamic team serves by providing training, research, and flexible support services. 
+                                        Through creative problem solving, collaboration, and reflection we provide an environment 
+                                        for growth in teaching and learning in an effort to best support our students, faculty and 
+                                        staff. </p>
+                                </div>
+                             
+                                <div class="features-col">
+                                    <h3>goals</h3>
+                                    <p>Anytime, anywhere learning. . . eliminate barriers for students and teachers
+                                        21st century teaching and learning will be redefined to be more efficient and targeted
+                                        Blended learning options will no longer be viewed as a new or separate opportunity . . . they will become our regular program </p>
+                                </div>
+                        </section>
+
+        
+<!----------------- ---------------js for toggle----------- -->
+            <script>
+                var navlinks = document.getElementById("navlinks");
+                function showmenu(){
+                    navlinks.style.right="0";  
+                }
+                function hidemenu(){
+                    navlinks.style.right="-200px";
+                    
+                }
+            </script>
+        
+<!-- ---------------------------call to action------------------------ -->
+
+<section class="cta">
+    <h1>EACH ONE TEACH ONE</h1>
+    <a href="about.html" class= "hero-btn">KNOW MORE</a>
+</section>
+
+
+<!-- -----------------------footer------------- -->
+<!-- <section class = "footer1">
+<a href="terms.html">  <button> Terms of Use</button></a>
+</section> -->
+
+
+
+
+
+
+
+<section class="footer">
+        <div class="icons">
+           <a href="https://www.facebook.com/"> <i class="fa fa-facebook"></i></a>
+           <a href="https://www.twitter.com/"> <i class="fa fa-twitter"></i></a>
+           <a href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a> 
+           <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o"></i></p>
+</section>
+<script src="https://kit.fontawesome.com/a0aab8060a.js" crossorigin="anonymous"></script>
+
+        </body>
+    </head>
+</html>
